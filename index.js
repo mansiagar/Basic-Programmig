@@ -9,3 +9,13 @@ function checkPrime(num) {
 }
 
 console.log(checkPrime(5));
+
+function evenOdd(num) {
+  if (num % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(evenOdd(3));
+console.log(evenOdd(2));
